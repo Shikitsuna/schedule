@@ -1,0 +1,13 @@
+body {
+    /* Shorthand for background properties */
+    background: url('https://upload-bbs.miyoushe.com/upload/2024/12/27/73565430/7003e7dfd138880a9da16d9e65299bfa_350066913956478406.png') no-repeat right / cover;
+
+    /* Ensures background image adjusts on mobile/portrait */
+    background-attachment: fixed;
+  }
+
+  @media (max-width: 768px), (orientation: portrait) {
+    body {
+      background: url('https://upload-bbs.miyoushe.com/upload/2024/12/27/73565430/7c9df0219fc10dc68f595a0a88bd7e06_4334203751425282131.png') no-repeat right / cover;
+    }
+  }
