@@ -11,10 +11,12 @@ body {
     background: url("https://i.imgur.com/adLw5bP.png") no-repeat top right / cover;
   }
 }
-.glass {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(2px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 15px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  }
+.glass-100 { background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(2px); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 15px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);}
+.glass-200 { background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(4px); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 15px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);}
+.glass-300 { background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 15px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);}
+.glass-400 { background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 15px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);}
+.glass-500 { background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 15px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);}
+.glass-600 { background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 15px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);}
+.glass-700 { background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(24px); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 15px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);}
+.glass-800 { background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(26px); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 15px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);}
+.glass-900 { background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(32px); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 15px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);}
