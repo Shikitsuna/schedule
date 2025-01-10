@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>SCHEDULE</title>
-</head>
-<body>
-    <div class="h-full w-full">
-        W
+  </head>
+  <body>
+    <div class="h-screen w-screen">
+      <!-- Container -->
+      <div class="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-4 h-screen">
+        <!-- Right side (B, C1, C2, C3) -->
+        <div class="grid grid-rows-3 gap-4 md:order-2">
+          <div class="glass text-white p-4 flex items-center justify-center">B-C1</div>
+          <div class="glass text-white p-4 flex items-center justify-center">B-C2</div>
+          <div class="glass text-white p-4 flex items-center justify-center">B-C3</div>
+        </div>
+        <!-- Sidebar (A) -->
+        <div class="glass text-white p-4 flex items-center justify-center md:order-1">A1-3</div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
