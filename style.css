@@ -8,6 +8,6 @@ body {
 
   @media (max-width: 768px), (orientation: portrait) {
     body {
-      background: url('https://upload-bbs.miyoushe.com/upload/2024/12/27/73565430/7c9df0219fc10dc68f595a0a88bd7e06_4334203751425282131.png') no-repeat right / cover;
+      background: url('https://upload-bbs.miyoushe.com/upload/2024/12/27/73565430/7c9df0219fc10dc68f595a0a88bd7e06_4334203751425282131.png') no-repeat top right / cover;
     }
   }
