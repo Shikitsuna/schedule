@@ -18,21 +18,20 @@ body {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   }
 .glass-100 {
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(1px);
 }
 .glass-200 {
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(2px);
 }
 .glass-300 {
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(4px);
 }
 .glass-400 {
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(8px);
 }
-
 .glass-500 {
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(16px);
 }
 .glass-600 {
-    backdrop-filter: blur(18px);
+    backdrop-filter: blur(20px);
 }
